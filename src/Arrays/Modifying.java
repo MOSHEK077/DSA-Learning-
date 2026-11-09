@@ -1,5 +1,5 @@
 package Arrays;
-
+//Modifying Traversal
 public class Modifying {
     public static void main(String[] args) {
         int data[] = {100,200,300,400,500,600};
