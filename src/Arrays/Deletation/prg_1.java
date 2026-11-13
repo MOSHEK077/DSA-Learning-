@@ -9,6 +9,7 @@ public class prg_1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to delete: ");
         int pos = sc.nextInt();//Target number to delete;
+        //Shifting elements to left
         for(int i = pos; i < arr.length-1;i++){
             arr[i] = arr[i+1];
 
